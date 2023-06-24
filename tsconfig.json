@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "include": ["src/**/*", "src/node_modules"],
+  "exclude": ["node_modules/*", "public/*"],
+  "compilerOptions": {
+	  "sourceMap": true,
+      "types": ["node", "svelte"],
+	  "moduleResolution": "node",
+	  "noImplicitAny": true,
+	  "noImplicitThis": true
+  }
+}
